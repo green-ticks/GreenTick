@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+  background-color: #011a32;
+}
+.home {
+  padding-left: 8rem;
+}
+
+/* .image-home {
+  padding-left: 50rem;
+} */
+.description {
+  /* line-width: 1.8; */
+  letter-spacing: 3px;
+  font-size: 1.4rem;
+  font-family: "Tahoma";
+}
+.quote {
+  font-family: "Homemade Apple", cursive;
+  color: rgb(29, 29, 124);
+}
+.myintro {
+  letter-spacing: 0.2rem;
+}
+
+.navbar {
+  font-family: Roboto;
+  font-weight: 100;
+  font-size: 1.25rem;
+  /* letter-spacing: 0.1rem; */
+  padding-left: 1rem;
+  background: rgba(1, 26, 50) !important;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.login {
+  font-size: 1rem;
+  padding-top: 0.17rem;
+  padding-left: 17rem;
+}
+.navbar-nav li {
+  padding-right: 1rem;
+  font-family: Roboto;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: 0.8rem;
+  font-family: Roboto;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgb(9, 211, 172);
+  font-family: Roboto;
+}
+.narrow {
+  padding-top: 10rem;
+  font-family: Roboto;
+  color: rgb(9, 211, 172);
+}
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 2rem 0 2rem;
+  margin-right: 0rem;
+  margin-top: 1rem;
+}
+.foot {
+  background-color: black;
+}
+.copyright {
+  font-family: "Tahoma";
+}
+.navbar-left {
+  font-family: Roboto;
+  font-weight: 100;
+  font-size: 1.25rem;
+  /* letter-spacing: 0.1rem; */
+  padding-top: 10rem;
+  padding-left: 1rem;
+  background: rgba(1, 26, 50) !important;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.intro {
+  color: white;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  letter-spacing: 0.16rem;
+  line-height: 3em;
+}
+
+.narrowt {
+  color: #c0c0c0;
+}
+.feature {
+  color: white;
+  letter-spacing: 0.1rem;
+}
+.name {
+  color: rgb(71, 117, 216);
+  font-family: "Tahoma";
+}
+a.linkedin {
+  color: #49a1eb;
+  margin: 20px 10px;
+}
+a.linkedinfooter {
+  color: white;
+  margin: 20px 10px;
+}
+a.instagram {
+  color: white;
+  margin: 20px 10px;
+}
+a.telegram {
+  color: white;
+  margin: 20px 10px;
+}
+a.hackerrank {
+  color: white;
+  margin: 20px 10px;
+}
+a.gmail {
+  margin: 20px 10px;
+  background-color: white;
+}
+.iconsfooter {
+  background-color: black;
+}
+
+.heart {
+  color: #da5a5a;
+  /* font-size: 1.5rem; */
+}
+
+/* #custom-nav {
+  -webkit-box-shadow: 20px 20px 20px #fc0;
+  -moz-box-shadow: 20px 20px 20px #fc0;
+  box-shadow: 20px 20px 20px #fc0;
+  z-index: 999;
+} */
