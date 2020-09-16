@@ -46,7 +46,7 @@ const Navbar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/globalcompetitions">
+              <NavLink className="nav-link" to="/globalcontests">
                 Global Contests
               </NavLink>
             </li>

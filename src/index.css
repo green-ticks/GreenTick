@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +11,21 @@
 }
 .home {
   padding-left: 8rem;
+}
+.login {
+  font-size: 1rem;
+  padding-top: 0.17rem;
+  padding-left: 17rem;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .home {
+    padding-left: 0;
+  }
+  .login {
+    padding-left: 0;
+    font-size: 1.3rem;
+  }
 }
 
 /* .image-home {
@@ -22,27 +39,25 @@
 }
 .quote {
   font-family: "Homemade Apple", cursive;
-  color: rgb(29, 29, 124);
+  color: rgb(30, 99, 131);
+  /* color: #5dcfef; */
+  /* color: #40a8c4; */
 }
 .myintro {
-  letter-spacing: 0.2rem;
+  /* letter-spacing: 0.05rem; */
+  font-family: "Karla";
+  font-size: 1.1rem;
 }
 
 .navbar {
   font-family: Roboto;
   font-weight: 100;
   font-size: 1.25rem;
-  /* letter-spacing: 0.1rem; */
   padding-left: 1rem;
   background: rgba(1, 26, 50) !important;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
-.login {
-  font-size: 1rem;
-  padding-top: 0.17rem;
-  padding-left: 17rem;
-}
 .navbar-nav li {
   padding-right: 1rem;
   font-family: Roboto;
@@ -59,6 +74,7 @@
   color: rgb(9, 211, 172);
   font-family: Roboto;
 }
+
 .narrow {
   padding-top: 10rem;
   font-family: Roboto;
@@ -92,8 +108,9 @@ footer {
   color: white;
   margin-left: 15rem;
   margin-right: 15rem;
-  letter-spacing: 0.16rem;
-  line-height: 3em;
+  font-family: "Lato";
+  /* letter-spacing: 0.1rem; */
+  line-height: 3rem;
 }
 
 .narrowt {
@@ -101,11 +118,11 @@ footer {
 }
 .feature {
   color: white;
-  letter-spacing: 0.1rem;
+  /* letter-spacing: 0.1rem; */
 }
 .name {
-  color: rgb(71, 117, 216);
-  font-family: "Tahoma";
+  color: #49a1eb;
+  font-family: "Lato";
 }
 a.linkedin {
   color: #49a1eb;

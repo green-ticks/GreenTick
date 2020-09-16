@@ -97,7 +97,7 @@ const Home = () => {
                       Microsoft Student <br></br>Partner{" "}
                     </div>
                     <br></br>
-                    EI, Sgsits
+                    EI, GSTI
                   </p>
                   <div className="social-container">
                     <p>
@@ -131,7 +131,7 @@ const Home = () => {
                     <div class="myintro">Backend Developer</div>
                     <br></br>
                     <br></br>
-                    CS, Sgsits
+                    CS, GSTI
                   </p>
                   <div className="social-container">
                     <p>
@@ -162,10 +162,10 @@ const Home = () => {
                   <h5 class="name">Pratik Jain</h5>
                   <p>
                     <div class="myintro">
-                      4★Codechef<br></br> Specialist Codeforces
+                      4★ Codechef<br></br> Specialist Codeforces
                     </div>
                     <br></br>
-                    CS, Sgsits
+                    CS, GSTI
                   </p>
                   <div className="social-container">
                     <p>
@@ -197,10 +197,10 @@ const Home = () => {
                   <h5 class="name">Tejus Tiwari</h5>
                   <p>
                     <div class="myintro">
-                      4★Codechef<br></br> Expert Codeforces
+                      4★ Codechef<br></br> Expert Codeforces
                     </div>
                     <br></br>
-                    IT, Sgsits
+                    IT, GSTI
                   </p>
                   <div className="social-container">
                     <p>
@@ -232,10 +232,10 @@ const Home = () => {
                   <h5 class="name">Yash Tayal</h5>
                   <p>
                     <div class="myintro">
-                      5★Codechef<br></br> Expert Codeforces
+                      5★ Codechef<br></br> Expert Codeforces
                     </div>
                     <br></br>
-                    IT, Sgsits
+                    IT, GSTI
                   </p>
                   <div className="social-container">
                     <p>
