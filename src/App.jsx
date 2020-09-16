@@ -21,7 +21,7 @@ const App = () => {
         <Route exact path="/practice" component={Practice} />
         <Route exact path="/resources" component={Resources} />
         <Route exact path="/login" component={Login} />
-        <Route exact path="/globalcompetitions" component={GlobalContests} />
+        <Route exact path="/globalcontests" component={GlobalContests} />
         <Redirect to="/home" />
       </Switch>
     </>

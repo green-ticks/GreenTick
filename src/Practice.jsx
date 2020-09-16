@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import MediaQuery from "react-responsive";
 import "./index.css";
 import Table1 from "./Table1.jsx";
+// import Footer from "./Footer.jsx";
 // import NavbarLeft from "./NavbarLeft";
 
 class Practice extends Component {
@@ -94,6 +95,7 @@ class Practice extends Component {
             </center>
           </MediaQuery>
         </div>
+        {/* <Footer></Footer> */}
       </div>
     );
   }

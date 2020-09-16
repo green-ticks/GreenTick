@@ -1,6 +1,7 @@
 import React from "react";
 import MediaQuery from "react-responsive";
 import "./index.css";
+// import Footer from "./Footer.jsx";
 const Resources = () => {
   return (
     <>
@@ -532,6 +533,7 @@ const Resources = () => {
           </div>
         </MediaQuery>
       </div>
+      {/* <Footer></Footer> */}
     </>
   );
 };
