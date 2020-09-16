@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import MediaQuery from "react-responsive";
 import "./index.css";
 import Table from "./Table.jsx";
+// import Footer from "./Footer.jsx";
 
 class GlobalContests extends Component {
   constructor(props) {
@@ -97,6 +98,7 @@ class GlobalContests extends Component {
             </center>
           </div>
         </MediaQuery>
+        {/* <Footer></Footer> */}
       </div>
       // }
     );

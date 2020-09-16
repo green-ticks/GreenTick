@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import MediaQuery from "react-responsive";
 import "./index.css";
 import Table from "./Table.jsx";
+// import Footer from "./Footer.jsx";
 class GreenTickWeekly extends Component {
   constructor(props) {
     super(props); //since we are extending class Table so we have to use super in order to override Component class constructor
@@ -76,6 +77,7 @@ class GreenTickWeekly extends Component {
             </div>
           </center>
         </MediaQuery>
+        {/* <Footer></Footer> */}
       </div>
     );
   }

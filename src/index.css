@@ -17,16 +17,6 @@
   padding-top: 0.17rem;
   padding-left: 17rem;
 }
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  .home {
-    padding-left: 0;
-  }
-  .login {
-    padding-left: 0;
-    font-size: 1.3rem;
-  }
-}
 
 /* .image-home {
   padding-left: 50rem;
@@ -39,9 +29,10 @@
 }
 .quote {
   font-family: "Homemade Apple", cursive;
-  color: rgb(30, 99, 131);
-  /* color: #5dcfef; */
+  /* color: rgb(30, 99, 131); */
+  color: #5dcfef;
   /* color: #40a8c4; */
+  /* color: #70adb5; */
 }
 .myintro {
   /* letter-spacing: 0.05rem; */
@@ -56,6 +47,9 @@
   padding-left: 1rem;
   background: rgba(1, 26, 50) !important;
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.navbar-toggler {
+  padding-right: 0.5rem;
 }
 
 .navbar-nav li {
@@ -83,6 +77,7 @@
 footer {
   width: 100%;
   background-color: black;
+  /* background-color: #1d2d50;  */
   color: white;
   padding: 2rem 0 2rem;
   margin-right: 0rem;
@@ -90,6 +85,7 @@ footer {
 }
 .foot {
   background-color: black;
+  /* background-color: #1d2d50;  */
 }
 .copyright {
   font-family: "Tahoma";
@@ -163,3 +159,39 @@ a.gmail {
   box-shadow: 20px 20px 20px #fc0;
   z-index: 999;
 } */
+
+@media only screen and (max-width: 1011px) {
+  /* For mobile phones: */
+  .home {
+    padding-left: 0;
+  }
+  .login {
+    padding-left: 0;
+    font-size: 1.2rem;
+  }
+  .intro {
+    line-height: 2;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+  }
+  .quote {
+    line-height: 2;
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+  }
+}
+
+@media only screen and (min-width: 1011px) and (max-width: 1400px) {
+  /* For tablets: */
+  .home {
+    padding-left: 0;
+  }
+  .login {
+    padding-left: 0;
+  }
+  .quote {
+    line-height: 2;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
