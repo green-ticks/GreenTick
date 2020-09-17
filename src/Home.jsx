@@ -224,7 +224,6 @@ const Home = () => {
                   />
                   <br></br>
                   <br></br>
-
                   <h5 class="name">Yash Tayal</h5>
                   <p>
                     <div class="myintro">
